@@ -1,98 +1,91 @@
-Trio - A Trello-Inspired Kanban Board App
+# Trio - pixel perfect, E2E clone of Trello (Vue + Node.js).
 
-Introductionsssss
+Trio is a visually appealing and user-friendly project management tool built by a team of 3 Full-Stack developers. It utilizes the latest front-end and back-end technologies to provide an innovative solution for managing projects, tasks, and deadlines. Ideal for developers, project managers, or anyone needing to keep track of tasks.
 
-Trio is a pixel-perfect, end-to-end clone of Trello, a popular project and task management platform. Inspired by the functionality of Trello, Trio aims to provide a familiar and feature-rich experience for managing projects and tasks using a kanban board. This application offers a range of unique features in addition to Trello's core functionality, enhancing your project management experience.
 
-Main Features
-Create and Manage Boards: Use drag-and-drop functionality to effortlessly create, remove, and update lists and tasks on your boards.
-Task Customization: Customize tasks to the deepest level with options such as labels, due dates, members, cover images, checklists, activity logs, copying, moving, and archiving.
-Side Menu: Easily change the board's background using the Unsplash Photo API, filter tasks by members or labels, and access the general activity log.
-Accessibility Features: We've implemented a Blind Color Mode to aid users with color blindness and a voice assistant that accepts vocal commands for effortless task management.
-Technologies
+## Table of Contents
 
-Trio is built using the MERN stack:2
+- [Trello Description](#trello-description)
+- [Application Features](#application-features)
+- [Technologies](#technologies)
+- [Getting started](#getting-started)
+- [Showcase](#showcase)
 
-MongoDB: A NoSQL database for storing data.
-Express: A Node.js web application framework for building the server.
-Vue: A JavaScript library for building the user interface.
-Node.js: A runtime environment for executing server-side JavaScript.
-WebSockets: Real-time board updates are achieved using WebSockets.
-REST API: Communication between the frontend and backend is facilitated using RESTful API calls.
-Getting Started
+## Trello Description
 
-Follow these steps to get started with Trio on your local machine:
+Trello is an app in which you can manage projects and tasks using a kanban board. A board contains lists and tasks. Usually each project is a board, and the lists and cards are the tasks and subjects to do in the project. Users can modify the board and change list and card locations using Drag and Drop. Users can work together and watch live changes. There are many other features in Trello, such as labels, due date for tasks, members and more. Every thing Trello has, we also had. We even added color-blind mode and speaker assistant! More about it in the features section.
 
-Clone the project repository:
-shell
-Copy code
-git clone https://github.com/YourUsername/Trio.git
-Navigate to the backend folder and install the required Node.js modules:
-shell
-Copy code
+## Application Features
+
+- **Create and Manage Boards and Projects:** Easily create, update, and remove lists and tasks using Drag and Drop (D&D) functionality.
+
+- **Deep Task Customization:** Dive into task details with features like Labels, Due Dates, Members, Cover Images, Checklists, and an Activity Log. You can also perform actions like Copying, Moving, and Archiving tasks.
+
+- **Enhanced Side Menu:** Customize your board background using the Unsplash Photo API. Filter tasks by members, labels, and access a comprehensive General Activity Log.
+
+- **Advanced Features:** Enjoy secure authentication options alongside regular login. Benefit from encryption for data safety.
+
+- **Trello Parity:** We've included all the intricate features that Trello offers, ensuring you won't miss out on any functionality.
+
+
+## Technologies
+The technology stack we used was MERN - MongoDB, Express, React, Node.js. The app uses webSockets to update the board in real-time. The API calls to the backend are done with the REST API method , and we used middlewares to authenticate and authorize actions.
+
+We have used many thirs side libraries for many goals, such as Modal Popper, , D&D and more. The layout and pixel-perfect were made with Sass (functions, mixins, variables).
+
+## Getting started
+
+Head to the repository on top and clone the project or download the files.
+
+```
+git clone https://github.com/Shayzig/Trio
+```
+
+Enter the backend folder and make sure you have node_modules installed. After that we will initiate the server with 'npm start':
+```
 cd backend
-npm install
-Start the server:
-shell
-Copy code
+npm i 
 npm start
-You should see a console output indicating that the server is up and running on port 3030.
-Go to the frontend folder and install the frontend dependencies:
-shell
-Copy code
+```
+
+You shuold get a console ouput that the server is up and running at port 3030. Enter the frontend folder and repeat the same process.
+```
 cd frontend
-npm install
-Start the frontend application:
-shell
-Copy code
+npm i 
 npm start
-You should see a console output indicating that the frontend is running at localhost:3000.
-That's it! The Trio app should open automatically in your web browser, allowing you to explore its features.
+```
+You shuold get a console ouput that the server is up and running at localhost:5173.
 
-Showcase
+That's it! The App should be opened automatically, enjoy!
 
-Homepage
-Homepage
 
-The landing page provides options for user registration, login, or a quick start demo for users with limited time.
 
-Workspace
-Workspace
+## Showcase
 
-The workspace displays all of the user's boards, offering the ability to create new boards, switch between them, and use the built-in voice assistant for enhanced productivity.
+### Homepage
+The landing page in which the user can sign up / login, or press the call to action button to start demo if the are limited with time.
+<img width="1440" alt="homepage" src="https://github.com/Shayzig/Trio/assets/121104922/53278aaf-5329-47c4-afd1-275b96de22c5">
 
-Board
-Board
+### Workspace
+All of the user's boards. Here, in addition to create a board with the empty board box and navigate between their's boards, they are able to use the vocal-assistant we created with 3rd side library! Pressing on the button in the middle of the nav bar on top would open an modal with instructions that makes life a bit easier.
+<img width="1440" alt="boardindex" src="https://github.com/Shayzig/Trio/assets/121104922/c2e20cf9-9e18-49ca-b6be-e815c2c79635">
 
-Experience the full range of Trello-like functionality, including drag-and-drop tasks, live updates, task editing, side menus, and board member management.
+###Board
+All the functionality that you have in Trello. D&D, live-updates, editing tasks to the deepest level, side-menu, editing board members and much more...
+<img width="1440" alt="boarddetails" src="https://github.com/Shayzig/Trio/assets/121104922/213ee77f-e3ae-4042-a07b-a79d7c8254f3">
 
-Signup
-Signup
+### Task Details
+Here the user can edit their tasks and to watch it happens live, in this page and behind. Every button on the right menu opens an dynamic modal which fits the content accordingly to the pressed button.
+<img width="1440" alt="taskdetails" src="https://github.com/Shayzig/Trio/assets/121104922/d8da8607-8a7e-433d-9b61-626b0da2a737">
 
-Trio offers an end-to-end authentication flow, encrypting user details and supporting Google Login for convenience.
+### Some mobile!
+Just a taste of the mobile experience. We used different mixins, conditional rendering. The layout we have built from the very first moment enabled us to make the website responsive without a lot of effort.
 
-Task Details
-Task Details
+<img width="150" alt="Mobile" src="https://github.com/Shayzig/Trio/assets/121104922/955ffaf8-db3b-48a1-b61c-1cd4fd51915e">
 
-Edit task details and witness live updates as changes are made. Dynamic modals provide detailed information on task elements.
 
-Side Menu
-Side Menu
 
-The side menu, accessible via the "Show menu" button, allows users to filter tasks by labels or names, change the board background with Unsplash images, view archived tasks, and track board activity.
-
-Mobile Experience
-Mobile Experience
-
-Trio's responsive design ensures a seamless mobile experience, adapting to different screen sizes with the "mobile first" approach.
-
-Authors
-
-Shay Zigdon
-Guy Dahan
-Alone Perlin
-Acknowledgments
-
-We would like to express our gratitude to the Trello team for inspiring this project and to the developers of the third-party libraries that contributed to its feature set. Thank you for considering Trio for your project management needs!
-
-Note: Replace the placeholder text and image links with actual content relevant to your project.
+Authors:
+- Shay Zigdon
+- lon Perlin
+- Guy Dahan
