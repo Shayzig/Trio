@@ -1,6 +1,6 @@
 Trio - A Trello-Inspired Kanban Board App
 
-Introduction
+Introductionsssss
 
 Trio is a pixel-perfect, end-to-end clone of Trello, a popular project and task management platform. Inspired by the functionality of Trello, Trio aims to provide a familiar and feature-rich experience for managing projects and tasks using a kanban board. This application offers a range of unique features in addition to Trello's core functionality, enhancing your project management experience.
 
