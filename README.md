@@ -11,7 +11,7 @@ Side Menu: Easily change the board's background using the Unsplash Photo API, fi
 Accessibility Features: We've implemented a Blind Color Mode to aid users with color blindness and a voice assistant that accepts vocal commands for effortless task management.
 Technologies
 
-Trio is built using the MERN stack:
+Trio is built using the MERN stack:2
 
 MongoDB: A NoSQL database for storing data.
 Express: A Node.js web application framework for building the server.
