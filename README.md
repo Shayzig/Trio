@@ -2,6 +2,8 @@
 
 Trio is a visually appealing and user-friendly project management tool built by a team of 3 Full-Stack developers. It utilizes the latest front-end and back-end technologies to provide an innovative solution for managing projects, tasks, and deadlines. Ideal for developers, project managers, or anyone needing to keep track of tasks.
 
+Try it here: https://trio-j5ev.onrender.com
+
 
 ## Table of Contents
 
