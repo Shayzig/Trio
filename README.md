@@ -72,7 +72,7 @@ The landing page in which the user can sign up / login, or press the call to act
 All of the user's boards. Here, in addition to create a board with the empty board box and navigate between their's boards, they are able to use the vocal-assistant we created with 3rd side library! Pressing on the button in the middle of the nav bar on top would open an modal with instructions that makes life a bit easier.
 <img width="1440" alt="boardindex" src="https://github.com/Shayzig/Trio/assets/121104922/c2e20cf9-9e18-49ca-b6be-e815c2c79635">
 
-###Board
+### Board
 All the functionality that you have in Trello. D&D, live-updates, editing tasks to the deepest level, side-menu, editing board members and much more...
 <img width="1440" alt="boarddetails" src="https://github.com/Shayzig/Trio/assets/121104922/213ee77f-e3ae-4042-a07b-a79d7c8254f3">
 
