@@ -85,9 +85,9 @@ Just a taste of the mobile experience. We used different mixins, conditional ren
 
 <img width="150" alt="Mobile" src="https://github.com/Shayzig/Trio/assets/121104922/955ffaf8-db3b-48a1-b61c-1cd4fd51915e">
 
-
+<br>
 
 Authors:
 - Shay Zigdon
-- lon Perlin
+- Alon Perlin
 - Guy Dahan
